@@ -1,0 +1,29 @@
+
+:root{
+    --white:#ffffff;
+    --btn:#c8c7c7;
+    --btn-color:#444444;
+    --hover:#5e5d5d;
+}
+
+
+.follow-container{
+    margin: 50px 10px;
+}
+.follow{
+    margin-left: 10px;
+}
+.follow-button{
+display: flex;
+justify-content: flex-end;
+}
+.follow-button a{
+color: var(--btn-color);
+background-color:var(--btn) ;
+transition: .5s all linear;
+
+}
+.follow-button a:hover{
+background-color:var(--hover) ;
+color: var(--white);
+}

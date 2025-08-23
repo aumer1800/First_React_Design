@@ -1,0 +1,30 @@
+.container-fluid img{
+    width: 100%;
+}
+.inside-image{
+position: absolute;
+right: 10%;
+top: 40%;
+color: white;
+}
+.inside-image p{
+    width: 80%;
+}
+.inside-image a{
+    text-decoration: none;
+    color: white;
+    background-color: #0067b8;
+    padding: .5rem;
+    border-radius: 2px;
+}
+
+@media (max-width:768px){
+    .inside-image{
+     margin-bottom: 30px;
+        position: relative;
+        width: 100%;
+        left: 0;
+        margin-top: 20px;
+        color: black;
+    }
+}

@@ -1,0 +1,32 @@
+.card-container{
+    display: flex;
+    margin: 50px auto;
+}
+
+.card{
+    height: 100%;
+}
+.card,.card img{
+    border-radius: 0;
+}
+    .card-fill {
+        margin-bottom: 10px;
+    }
+.card-body{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.card-body .card-text{
+    flex-grow: 1;
+}
+.card-body .btn {
+    align-self: flex-start;
+    background-color: #0067b8;
+    border-radius: 2px;
+    color: white;
+
+}
+
+
+

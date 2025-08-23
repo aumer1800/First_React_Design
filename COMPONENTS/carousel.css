@@ -1,0 +1,44 @@
+.container-fluid{
+    position: relative;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+
+}
+.text{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.text p{
+    margin-top: 20px;
+    width: 50%;
+}
+.text a{
+   display: inline-block;
+    padding: .5rem;
+    text-decoration: none;
+    background-color: #0067b8;
+    color: white;
+    margin-top: 20px;
+}
+.chevron{
+    font-size: 18px;
+    border: none;
+}
+
+
+
+
+@media (max-width:768px){
+    .text{
+        
+        margin-bottom: 30px;
+        position: relative;
+        left: 0;
+        margin-top: 20px;
+    }
+    .text p {
+    width: 90%;
+    }
+}
+
+
