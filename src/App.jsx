@@ -1,12 +1,12 @@
 
 import './App.css'
-import Navbar from'/COMPONENTS/navbar.jsx'
-import Carousel from '/COMPONENTS/carousel.jsx'
-import Card from '/COMPONENTS/card.jsx'
-import Image_container from '/COMPONENTS/image-overlay.jsx'
-import Remaining_Cards from '/COMPONENTS/remaining-cards.jsx'
-import Follow from '/COMPONENTS/follow.jsx'
-import Footer from '/COMPONENTS/footer.jsx'
+import Navbar from './components/navbar'
+import Carousel from './components/carousel'
+import Card from './components/card'
+import Image_container from './components/image-overlay'
+import Remaining_Cards from './components/remaining-cards'
+import Follow from './components/follow'
+import Footer from './components/footer'
 function App() {
   return (
     <>
